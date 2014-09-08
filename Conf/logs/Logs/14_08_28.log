@@ -1,0 +1,517 @@
+[ 2014-08-28T22:57:47+08:00 ] 115.192.218.153 /index.php?g=Wap&m=Photo&a=plist&token=hrwhxw1408801152&id=4&wecha_id=ogNJRt3B-ZaJSf_CSd_p_MQWt6oI
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /alidata/www/default/Common/functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001144s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.000998s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `wecha_id` = 'ogNJRt3B-ZaJSf_CSd_p_MQWt6oI' ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000365s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `openid` = 'ogNJRt3B-ZaJSf_CSd_p_MQWt6oI' ) LIMIT 1   [ RunTime:0.000224s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/9/5/95e9b484bfa88fdb246a4cdc208b03ef.php): No such file or directory /alidata/www/default/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.000440s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000388s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000692s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000466s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000749s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `tp_reply_info` [ RunTime:0.000521s ]
+SQL: SELECT * FROM `tp_reply_info` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `infotype` = 'album' ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.000433s ]
+SQL: SELECT `title` FROM `tp_photo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `id` = 4 ) LIMIT 1   [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `tp_photo_list` [ RunTime:0.000442s ]
+SQL: SELECT * FROM `tp_photo_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `pid` = 4 ) AND ( `status` = 1 ) ORDER BY sort desc  [ RunTime:0.000281s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025531s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id /alidata/www/default/Conf/logs/Cache/Wap/f0e3e028d2a981bfe7b21336f64e469f.php 第 67 行.
+NOTIC: [8] Undefined index: picurl /alidata/www/default/Conf/logs/Cache/Wap/f0e3e028d2a981bfe7b21336f64e469f.php 第 68 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006356s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032277s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032507s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2014-08-28T22:57:51+08:00 ] 106.37.173.131 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id /alidata/www/default/Common/functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000478s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000232s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008321s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+NOTIC: [8] Undefined index: uid /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014971s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023607s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023868s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024203s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2014-08-28T22:57:51+08:00 ] 106.37.173.131 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id /alidata/www/default/Common/functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000226s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008116s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+NOTIC: [8] Undefined index: uid /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020348s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028794s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029085s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029398s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2014-08-28T22:57:52+08:00 ] 106.37.173.131 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id /alidata/www/default/Common/functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000480s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000228s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008022s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+NOTIC: [8] Undefined index: uid /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015360s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023703s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023979s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001083s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2014-08-28T22:57:54+08:00 ] 115.192.218.153 /index.php?g=Wap&m=Photo&a=plist&token=hrwhxw1408801152&id=4&wecha_id=ogNJRt3B-ZaJSf_CSd_p_MQWt6oI
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /alidata/www/default/Common/functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001243s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.000741s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `wecha_id` = 'ogNJRt3B-ZaJSf_CSd_p_MQWt6oI' ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000472s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `openid` = 'ogNJRt3B-ZaJSf_CSd_p_MQWt6oI' ) LIMIT 1   [ RunTime:0.000200s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/9/5/95e9b484bfa88fdb246a4cdc208b03ef.php): No such file or directory /alidata/www/default/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.000419s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000399s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000611s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000406s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000578s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `tp_reply_info` [ RunTime:0.000520s ]
+SQL: SELECT * FROM `tp_reply_info` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `infotype` = 'album' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.000432s ]
+SQL: SELECT `title` FROM `tp_photo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `id` = 4 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `tp_photo_list` [ RunTime:0.000410s ]
+SQL: SELECT * FROM `tp_photo_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `pid` = 4 ) AND ( `status` = 1 ) ORDER BY sort desc  [ RunTime:0.000276s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023869s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id /alidata/www/default/Conf/logs/Cache/Wap/f0e3e028d2a981bfe7b21336f64e469f.php 第 67 行.
+NOTIC: [8] Undefined index: picurl /alidata/www/default/Conf/logs/Cache/Wap/f0e3e028d2a981bfe7b21336f64e469f.php 第 68 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006205s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030398s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030660s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030922s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003004s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2014-08-28T22:57:59+08:00 ] 115.192.218.153 /index.php?g=Wap&m=Photo&a=plist&token=hrwhxw1408801152&id=4&wecha_id=ogNJRt3B-ZaJSf_CSd_p_MQWt6oI
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /alidata/www/default/Common/functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001137s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.000723s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `wecha_id` = 'ogNJRt3B-ZaJSf_CSd_p_MQWt6oI' ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000371s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `openid` = 'ogNJRt3B-ZaJSf_CSd_p_MQWt6oI' ) LIMIT 1   [ RunTime:0.000227s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/9/5/95e9b484bfa88fdb246a4cdc208b03ef.php): No such file or directory /alidata/www/default/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.000396s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000398s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000622s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000446s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000557s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `tp_reply_info` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `tp_reply_info` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `infotype` = 'album' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.000395s ]
+SQL: SELECT `title` FROM `tp_photo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `id` = 4 ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `tp_photo_list` [ RunTime:0.000429s ]
+SQL: SELECT * FROM `tp_photo_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `pid` = 4 ) AND ( `status` = 1 ) ORDER BY sort desc  [ RunTime:0.000282s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024035s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id /alidata/www/default/Conf/logs/Cache/Wap/f0e3e028d2a981bfe7b21336f64e469f.php 第 67 行.
+NOTIC: [8] Undefined index: picurl /alidata/www/default/Conf/logs/Cache/Wap/f0e3e028d2a981bfe7b21336f64e469f.php 第 68 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006235s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030654s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030891s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031174s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2014-08-28T22:59:53+08:00 ] 115.192.218.153 /index.php?g=Wap&m=Index&a=index&token=hrwhxw1408801152&wecha_id=o2czTjvjqgNiZC4ymCVvRok2-dPE&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /alidata/www/default/Common/functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001117s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.000686s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `wecha_id` = 'o2czTjvjqgNiZC4ymCVvRok2-dPE' ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000360s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `openid` = 'o2czTjvjqgNiZC4ymCVvRok2-dPE' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.000522s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000353s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000644s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000471s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000577s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000462s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000439s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'hrwhxw1408801152' )  [ RunTime:0.000171s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041435s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero /alidata/www/default/Conf/logs/Cache/Wap/1a00a1bcbb7893c1f85092890928d507.php 第 414 行.
+NOTIC: [2] Division by zero /alidata/www/default/Conf/logs/Cache/Wap/1a00a1bcbb7893c1f85092890928d507.php 第 415 行.
+NOTIC: [2] Division by zero /alidata/www/default/Conf/logs/Cache/Wap/1a00a1bcbb7893c1f85092890928d507.php 第 416 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.041744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049627s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.091440s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.091736s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.092044s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.092200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.092579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2014-08-28T23:00:00+08:00 ] 115.192.218.153 /index.php?g=Wap&m=Company&a=map&token=hrwhxw1408801152&wecha_id=o2czTjvjqgNiZC4ymCVvRok2-dPE
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /alidata/www/default/Common/functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.002489s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.001553s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `wecha_id` = 'o2czTjvjqgNiZC4ymCVvRok2-dPE' ) LIMIT 1   [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000791s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `openid` = 'o2czTjvjqgNiZC4ymCVvRok2-dPE' ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.001045s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000854s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000804s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000494s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000679s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000666s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000248s ]
+
+[ 2014-08-28T23:00:34+08:00 ] 115.192.218.153 /index.php?g=Wap&m=Company&a=map&token=hrwhxw1408801152&wecha_id=o2czTjvjqgNiZC4ymCVvRok2-dPE
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /alidata/www/default/Common/functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001128s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.001138s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `wecha_id` = 'o2czTjvjqgNiZC4ymCVvRok2-dPE' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000406s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `openid` = 'o2czTjvjqgNiZC4ymCVvRok2-dPE' ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.000506s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000363s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000660s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000550s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000233s ]
+
+[ 2014-08-28T23:00:41+08:00 ] 115.192.218.153 /index.php?g=Wap&m=Company&a=map&token=hrwhxw1408801152&wecha_id=o2czTjvjqgNiZC4ymCVvRok2-dPE
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /alidata/www/default/Common/functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001141s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.000696s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `wecha_id` = 'o2czTjvjqgNiZC4ymCVvRok2-dPE' ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000363s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `openid` = 'o2czTjvjqgNiZC4ymCVvRok2-dPE' ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.000443s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'hrwhxw1408801152' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000367s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.001045s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000588s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000553s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'hrwhxw1408801152' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000268s ]
+
+[ 2014-08-28T23:01:07+08:00 ] 115.192.218.153 /index.php?g=Wap&m=Index&a=index&token=mkqpws1408870745&wecha_id=ogNJRt3B-ZaJSf_CSd_p_MQWt6oI&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /alidata/www/default/Common/functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001106s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'mkqpws1408870745' ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.000645s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'mkqpws1408870745' ) AND ( `wecha_id` = 'ogNJRt3B-ZaJSf_CSd_p_MQWt6oI' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000366s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'mkqpws1408870745' ) AND ( `openid` = 'ogNJRt3B-ZaJSf_CSd_p_MQWt6oI' ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.000442s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'mkqpws1408870745' ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000348s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'mkqpws1408870745' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000224s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/3/f/3f9a9b4dd3843103a8c4ba54c9a1ffd9.php): No such file or directory /alidata/www/default/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000569s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000466s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000553s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'mkqpws1408870745' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000219s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/e/9/e9dbf3a0c047950e1c1fc798ac2016ba.php): No such file or directory /alidata/www/default/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000471s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'mkqpws1408870745' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'mkqpws1408870745' )  [ RunTime:0.000168s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024233s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Division by zero /alidata/www/default/Conf/logs/Cache/Wap/c0d40f8ece9a9358b46a07d0ee5956bd.php 第 262 行.
+NOTIC: [2] Division by zero /alidata/www/default/Conf/logs/Cache/Wap/c0d40f8ece9a9358b46a07d0ee5956bd.php 第 263 行.
+NOTIC: [2] Division by zero /alidata/www/default/Conf/logs/Cache/Wap/c0d40f8ece9a9358b46a07d0ee5956bd.php 第 264 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011497s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036054s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036299s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036566s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2014-08-28T23:32:05+08:00 ] ERR: (ThinkException) _MODULE_NOT_EXIST_:robots.txt
+[ 2014-08-28T23:32:06+08:00 ] 66.249.66.193 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id /alidata/www/default/Common/functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000517s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000223s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008341s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+NOTIC: [8] Undefined index: uid /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014788s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023456s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023735s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024073s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2014-08-28T23:36:31+08:00 ] 184.75.214.234 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id /alidata/www/default/Common/functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000528s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000219s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008429s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+NOTIC: [8] Undefined index: uid /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028390s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028672s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028978s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2014-08-28T23:40:56+08:00 ] 183.67.110.156 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id /alidata/www/default/Common/functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000480s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000249s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008030s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+NOTIC: [8] Undefined index: uid /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014971s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023330s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023600s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023930s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2014-08-28T23:52:27+08:00 ] 123.125.71.36 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id /alidata/www/default/Common/functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000480s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000222s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008009s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+NOTIC: [8] Undefined index: uid /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014518s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022846s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023123s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023438s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2014-08-28T23:53:21+08:00 ] 220.181.108.101 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID /alidata/www/default/Common/functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id /alidata/www/default/Common/functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000505s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000221s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007821s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+NOTIC: [8] Undefined index: uid /alidata/www/default/Conf/logs/Cache/Home/e3fa5732cdf1eed66baea3fb881f4cd5.php 第 54 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014998s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023145s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.023449s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023766s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000450s ]
+
